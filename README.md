@@ -3,6 +3,10 @@
 
 How Much Faster (HMF) is a simple CLI application written in Rust to calculate time differences and percentage differences between two time values. It supports input in seconds (s) and milliseconds (ms), and it is useful for quickly comparing two durations.
 
+```
+cargo install hmf
+```
+
 ## Features
 
 - Calculate the absolute time difference between two values.
