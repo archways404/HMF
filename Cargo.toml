@@ -1,0 +1,16 @@
+[package]
+name = "hmf"
+version = "0.0.1"
+edition = "2021"
+description = "A CLI tool to calculate time and percentage differences between two time values."
+license = "MIT"                  
+repository = "https://github.com/archways404/HMF"  
+homepage = "https://github.com/archways404/HMF"
+documentation = "https://github.com/archways404/HMF/blob/master/README.md"  
+
+[[bin]]
+name = "hmf"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
